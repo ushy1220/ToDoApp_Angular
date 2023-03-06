@@ -1,20 +1,31 @@
-.content {
-    overflow: auto;
-    height: 500px;
-    max-height: 500px;
-}
-
 .header {
     text-align: center;
 }
 
+.row {
+    display: flex;
+    justify-content: center;
+}
+
 .col {
     border: 1px solid;
+    width: auto;
+    max-width: 600px;
+    
+}
+
+.inputs {
+    display: flex;
 }
 
 .form-control {
     text-align: center;
-    display: inline;
+}
+
+.table tr td {
+   word-wrap: break-word; 
+   width: auto;
+   max-width: 500px;
 }
 
 .done {
