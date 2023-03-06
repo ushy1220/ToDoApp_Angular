@@ -1,0 +1,26 @@
+.content {
+    overflow: auto;
+    height: 500px;
+    max-height: 500px;
+}
+
+.header {
+    text-align: center;
+}
+
+.col {
+    border: 1px solid;
+}
+
+.form-control {
+    text-align: center;
+    display: inline;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.remove:hover {
+    cursor: pointer;
+}
